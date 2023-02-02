@@ -205,6 +205,7 @@ function PageFactory({ navigation, route }) {
             Config.topTabs && <TopTab.Navigator>
                 {
                     Config.topTabs.child.map((k, index) => {
+                        // loop PageFactory 
                         return <TopTab.Screen name={k.name} component={PageFactory}
                             initialParams={{
                                 child: k
