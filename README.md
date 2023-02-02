@@ -2,4 +2,6 @@
 
 test dynamic route.
 
+see index.js
+
 use expo
